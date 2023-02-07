@@ -1,0 +1,67 @@
+h1{ 
+	font-family: arial, verdana, sans-sefir;
+	font-size: 40px:;
+    color: #b22222;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-shadow: gray 2px 2px 3px
+
+}
+body{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+	margin: 0;
+
+}
+p{
+ font-family: arial, verdana, sans-sefir;
+ font-size: 20px;
+ color: #FA8072;
+ text-align: justify;
+}
+*{
+	box-sizing: border-box;
+}
+#main{
+	display: flex;
+	flex:1;
+}
+#main > article{
+flex: 1;
+}
+#main >nav,
+#main aside
+{
+flex: 0 0 20vw;
+background: beige;
+}
+#main > nav {
+	order: -1;
+}
+header , footer
+{
+	background: yellowgreen;
+	height: 20vh
+}
+header, footer, article, nav, aside{
+	padding: 1em;
+}
+.menu{width: 260px;}
+.menu a{
+	border-color: #FAA07A;
+	color: white;
+	display: block;
+	padding: 12px;
+	text-decoration: none;
+	font-family: arial, verdana, sans-sefir;
+	font-size: 20px
+}
+.menu a:hover {
+	background-color: #cd5c5c;
+}
+.menu a:active{
+	background-color: #ff6347
+	color: white;
+}
